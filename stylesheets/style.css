@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 72px;
+  z-index: 10
+}
+
+.logo {
+  padding-left: 45px;
+  border-radius: 0%;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menulist {
+  margin-right: 20px;
+}
+
+.menuitem {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0px 25px 0px 25px;
+}
+
+.menuitem:hover {
+  border-bottom: 1px solid #B2FFEE;
+}
+
+.menuitem a:hover {
+  color: #B2FFEE;
+}
+
+.container1 {
+  background-image: url("../images/boats_.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  padding: 200px 0 0px 250px;
+  text-align: left;
+  font-size: 40px;
+}
+
+h1 {
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.text {
+  font-weight: 300;
+  margin: 0px 0px 0px 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container2 {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.container21 {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+  padding: 40px 150px 80px 150px;
+  display: flex;
+}
+
+.designer {
+  border-radius: 50%;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.abouttext {
+  color: #404A52;
+  font-size: 20px;
+  max-width: 680px;
+}
+
+.container3 {
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.container31 {
+  background-color: #eaeaea;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px 150px;
+}
+
+.footeritem {
+color: #404A52;
+}
+
+.rowitem {
+  width: 344px;
+  margin-top: 10px;
+}
+
+.rowitem:hover .footeritem {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.rowitem .footeritem {
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.rowitem .item {
+  transform:scale(1,1);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.rowitem:hover .item {
+  transform:scale(1.1,1.1);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.container4 {
+  background-color: #7CE1F2;
+  text-align: center;
+}
+
+.container41 {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #7CE1F2;
+  padding: 80px 150px 80px 150px;
+  display: flex;
+}
+
+.contactbox {
+  width: 440px;
+}
+
+.phonemail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phonemailicon {
+  width: 50px;
+  height: 50px;
+  padding-right: 14px;
+}
+
+.phonemailtext {
+  font-size: 20px;
+  color: white;
+}
+
+.phonemailtexttop {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+
+
+.phonemailtexttop .black {
+  color: #404A52;
+}
+.phonemailtext .black {
+  color: #404A52;
+}
+
+.formbox {
+  width: 680px;
+}
+
+.titular {
+  margin: 0 auto;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid #3AD2E8;
+}
+
+.titular2 {
+  width: 120px;
+}
+
+.titular3 {
+  width: 170px;
+}
+
+.titular4 {
+  width: 130px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0px;
+  padding-top: 60px;
+  color: #404A52;
+}
+
+.titular4 h2 {
+  color: white;
+}
+
+.footer {
+  background: #10131A;
+  height: 100px;
+  text-align: center;
+  padding: 25px;
+}
+
+footer p {
+  font-size: 15px;
+}
